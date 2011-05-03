@@ -16,6 +16,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -37,16 +38,6 @@
 		vrLen = 390;
 		vrLoc = 0;
 	};
-	1F94B40913708F0200BF455E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1FCF3267137007D30020A00F /* JHTickerView.m */;
-		name = "JHTickerView.m: 9";
-		rLen = 12;
-		rLoc = 145;
-		rType = 0;
-		vrLen = 390;
-		vrLoc = 0;
-	};
 	1F94B40F13708F0200BF455E /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
@@ -61,12 +52,12 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	1F94B41113708F9D00BF455E /* PBXTextBookmark */ = {
+	1F94B416137091B100BF455E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1FCF3267137007D30020A00F /* JHTickerView.m */;
-		name = "JHTickerView.m: 9";
-		rLen = 12;
-		rLoc = 145;
+		name = "JHTickerView.m: 11";
+		rLen = 0;
+		rLoc = 195;
 		rType = 0;
 		vrLen = 390;
 		vrLoc = 0;
@@ -129,8 +120,7 @@
 		};
 		perUserProjectItems = {
 			1F94B40813708F0200BF455E /* PBXTextBookmark */ = 1F94B40813708F0200BF455E /* PBXTextBookmark */;
-			1F94B40913708F0200BF455E /* PBXTextBookmark */ = 1F94B40913708F0200BF455E /* PBXTextBookmark */;
-			1F94B41113708F9D00BF455E /* PBXTextBookmark */ = 1F94B41113708F9D00BF455E /* PBXTextBookmark */;
+			1F94B416137091B100BF455E /* PBXTextBookmark */ = 1F94B416137091B100BF455E /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1F94B40F13708F0200BF455E /* Source Control */;
 		userBuildSettings = {
@@ -145,7 +135,7 @@
 	1FCF3267137007D30020A00F /* JHTickerView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 2470}}";
-			sepNavSelRange = "{145, 12}";
+			sepNavSelRange = "{195, 0}";
 			sepNavVisRange = "{0, 390}";
 		};
 	};
