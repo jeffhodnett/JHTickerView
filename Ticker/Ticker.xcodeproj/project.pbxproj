@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FCF3247137007A20020A00F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF3246137007A20020A00F /* UIKit.framework */; };
+		1FCF3249137007A20020A00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF3248137007A20020A00F /* Foundation.framework */; };
+		1FCF324B137007A20020A00F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF324A137007A20020A00F /* CoreGraphics.framework */; };
+		1FCF3251137007A20020A00F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF324F137007A20020A00F /* InfoPlist.strings */; };
+		1FCF3254137007A20020A00F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF3253137007A20020A00F /* main.m */; };
+		1FCF3257137007A20020A00F /* TickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF3256137007A20020A00F /* TickerAppDelegate.m */; };
+		1FCF325A137007A20020A00F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF3258137007A20020A00F /* MainWindow.xib */; };
+		1FCF325D137007A20020A00F /* TickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF325C137007A20020A00F /* TickerViewController.m */; };
+		1FCF3260137007A20020A00F /* TickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF325E137007A20020A00F /* TickerViewController.xib */; };
+		1FCF3268137007D30020A00F /* JHTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF3267137007D30020A00F /* JHTickerView.m */; };
+		1FCF326E137016FF0020A00F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF326D137016FF0020A00F /* QuartzCore.framework */; };
+		1FCF3279137034E10020A00F /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF3277137034E10020A00F /* pause@2x.png */; };
+		1FCF327A137034E10020A00F /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF3278137034E10020A00F /* play@2x.png */; };
+		1FCF327D1370351B0020A00F /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF327B1370351B0020A00F /* pause.png */; };
+		1FCF327E1370351B0020A00F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF327C1370351B0020A00F /* play.png */; };
+		1FCF32F4137055D80020A00F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF32F3137055D80020A00F /* Icon@2x.png */; };
+		1FCF32F6137055DD0020A00F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF32F5137055DD0020A00F /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FCF3242137007A20020A00F /* Ticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCF3246137007A20020A00F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FCF3248137007A20020A00F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FCF324A137007A20020A00F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FCF324E137007A20020A00F /* Ticker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ticker-Info.plist"; sourceTree = "<group>"; };
+		1FCF3250137007A20020A00F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FCF3252137007A20020A00F /* Ticker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ticker-Prefix.pch"; sourceTree = "<group>"; };
+		1FCF3253137007A20020A00F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FCF3255137007A20020A00F /* TickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickerAppDelegate.h; sourceTree = "<group>"; };
+		1FCF3256137007A20020A00F /* TickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerAppDelegate.m; sourceTree = "<group>"; };
+		1FCF3259137007A20020A00F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1FCF325B137007A20020A00F /* TickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickerViewController.h; sourceTree = "<group>"; };
+		1FCF325C137007A20020A00F /* TickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerViewController.m; sourceTree = "<group>"; };
+		1FCF325F137007A20020A00F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TickerViewController.xib; sourceTree = "<group>"; };
+		1FCF3266137007D30020A00F /* JHTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTickerView.h; sourceTree = "<group>"; };
+		1FCF3267137007D30020A00F /* JHTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTickerView.m; sourceTree = "<group>"; };
+		1FCF326D137016FF0020A00F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1FCF3277137034E10020A00F /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		1FCF3278137034E10020A00F /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		1FCF327B1370351B0020A00F /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		1FCF327C1370351B0020A00F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		1FCF32F3137055D80020A00F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1FCF32F5137055DD0020A00F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCF323F137007A20020A00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCF326E137016FF0020A00F /* QuartzCore.framework in Frameworks */,
+				1FCF3247137007A20020A00F /* UIKit.framework in Frameworks */,
+				1FCF3249137007A20020A00F /* Foundation.framework in Frameworks */,
+				1FCF324B137007A20020A00F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCF3237137007A20020A00F = {
+			isa = PBXGroup;
+			children = (
+				1FCF324C137007A20020A00F /* Ticker */,
+				1FCF3245137007A20020A00F /* Frameworks */,
+				1FCF3243137007A20020A00F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FCF3243137007A20020A00F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF3242137007A20020A00F /* Ticker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCF3245137007A20020A00F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF326D137016FF0020A00F /* QuartzCore.framework */,
+				1FCF3246137007A20020A00F /* UIKit.framework */,
+				1FCF3248137007A20020A00F /* Foundation.framework */,
+				1FCF324A137007A20020A00F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FCF324C137007A20020A00F /* Ticker */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF3255137007A20020A00F /* TickerAppDelegate.h */,
+				1FCF3256137007A20020A00F /* TickerAppDelegate.m */,
+				1FCF3258137007A20020A00F /* MainWindow.xib */,
+				1FCF325B137007A20020A00F /* TickerViewController.h */,
+				1FCF325C137007A20020A00F /* TickerViewController.m */,
+				1FCF325E137007A20020A00F /* TickerViewController.xib */,
+				1FCF330D13706A340020A00F /* JHTickerView */,
+				1FCF324D137007A20020A00F /* Supporting Files */,
+			);
+			path = Ticker;
+			sourceTree = "<group>";
+		};
+		1FCF324D137007A20020A00F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF32F5137055DD0020A00F /* Icon.png */,
+				1FCF32F3137055D80020A00F /* Icon@2x.png */,
+				1FCF327B1370351B0020A00F /* pause.png */,
+				1FCF327C1370351B0020A00F /* play.png */,
+				1FCF3277137034E10020A00F /* pause@2x.png */,
+				1FCF3278137034E10020A00F /* play@2x.png */,
+				1FCF324E137007A20020A00F /* Ticker-Info.plist */,
+				1FCF324F137007A20020A00F /* InfoPlist.strings */,
+				1FCF3252137007A20020A00F /* Ticker-Prefix.pch */,
+				1FCF3253137007A20020A00F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FCF330D13706A340020A00F /* JHTickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF3266137007D30020A00F /* JHTickerView.h */,
+				1FCF3267137007D30020A00F /* JHTickerView.m */,
+			);
+			name = JHTickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FCF3241137007A20020A00F /* Ticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCF3263137007A20020A00F /* Build configuration list for PBXNativeTarget "Ticker" */;
+			buildPhases = (
+				1FCF323E137007A20020A00F /* Sources */,
+				1FCF323F137007A20020A00F /* Frameworks */,
+				1FCF3240137007A20020A00F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ticker;
+			productName = Ticker;
+			productReference = 1FCF3242137007A20020A00F /* Ticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FCF3239137007A20020A00F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Acrossair;
+			};
+			buildConfigurationList = 1FCF323C137007A20020A00F /* Build configuration list for PBXProject "Ticker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FCF3237137007A20020A00F;
+			productRefGroup = 1FCF3243137007A20020A00F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FCF3241137007A20020A00F /* Ticker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCF3240137007A20020A00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCF3251137007A20020A00F /* InfoPlist.strings in Resources */,
+				1FCF325A137007A20020A00F /* MainWindow.xib in Resources */,
+				1FCF3260137007A20020A00F /* TickerViewController.xib in Resources */,
+				1FCF3279137034E10020A00F /* pause@2x.png in Resources */,
+				1FCF327A137034E10020A00F /* play@2x.png in Resources */,
+				1FCF327D1370351B0020A00F /* pause.png in Resources */,
+				1FCF327E1370351B0020A00F /* play.png in Resources */,
+				1FCF32F4137055D80020A00F /* Icon@2x.png in Resources */,
+				1FCF32F6137055DD0020A00F /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FCF323E137007A20020A00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCF3254137007A20020A00F /* main.m in Sources */,
+				1FCF3257137007A20020A00F /* TickerAppDelegate.m in Sources */,
+				1FCF325D137007A20020A00F /* TickerViewController.m in Sources */,
+				1FCF3268137007D30020A00F /* JHTickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FCF324F137007A20020A00F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCF3250137007A20020A00F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FCF3258137007A20020A00F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCF3259137007A20020A00F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1FCF325E137007A20020A00F /* TickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCF325F137007A20020A00F /* en */,
+			);
+			name = TickerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FCF3261137007A20020A00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FCF3262137007A20020A00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1FCF3264137007A20020A00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticker/Ticker-Prefix.pch";
+				INFOPLIST_FILE = "Ticker/Ticker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FCF3265137007A20020A00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticker/Ticker-Prefix.pch";
+				INFOPLIST_FILE = "Ticker/Ticker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCF323C137007A20020A00F /* Build configuration list for PBXProject "Ticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCF3261137007A20020A00F /* Debug */,
+				1FCF3262137007A20020A00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCF3263137007A20020A00F /* Build configuration list for PBXNativeTarget "Ticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCF3264137007A20020A00F /* Debug */,
+				1FCF3265137007A20020A00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FCF3239137007A20020A00F /* Project object */;
+}

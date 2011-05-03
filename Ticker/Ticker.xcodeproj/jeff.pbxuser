@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	1F94B3F413708EF800BF455E /* Ticker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Ticker;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F94B40813708F0200BF455E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FCF3267137007D30020A00F /* JHTickerView.m */;
+		name = "JHTickerView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	1F94B40913708F0200BF455E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FCF3267137007D30020A00F /* JHTickerView.m */;
+		name = "JHTickerView.m: 9";
+		rLen = 12;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	1F94B40F13708F0200BF455E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F94B41013708F0200BF455E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F94B41113708F9D00BF455E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FCF3267137007D30020A00F /* JHTickerView.m */;
+		name = "JHTickerView.m: 9";
+		rLen = 12;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 0;
+	};
+	1FCF3239137007A20020A00F /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1F94B3F413708EF800BF455E /* Ticker */;
+		activeTarget = 1FCF3241137007A20020A00F /* Ticker */;
+		codeSenseManager = 1F94B41013708F0200BF455E /* Code sense */;
+		executables = (
+			1F94B3F413708EF800BF455E /* Ticker */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326143736;
+			PBXWorkspaceStateSaveDate = 326143736;
+		};
+		perUserProjectItems = {
+			1F94B40813708F0200BF455E /* PBXTextBookmark */ = 1F94B40813708F0200BF455E /* PBXTextBookmark */;
+			1F94B40913708F0200BF455E /* PBXTextBookmark */ = 1F94B40913708F0200BF455E /* PBXTextBookmark */;
+			1F94B41113708F9D00BF455E /* PBXTextBookmark */ = 1F94B41113708F9D00BF455E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1F94B40F13708F0200BF455E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1FCF3241137007A20020A00F /* Ticker */ = {
+		activeExec = 0;
+		executables = (
+			1F94B3F413708EF800BF455E /* Ticker */,
+		);
+	};
+	1FCF3267137007D30020A00F /* JHTickerView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 2470}}";
+			sepNavSelRange = "{145, 12}";
+			sepNavVisRange = "{0, 390}";
+		};
+	};
+}
