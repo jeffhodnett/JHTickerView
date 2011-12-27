@@ -21,6 +21,7 @@
 @synthesize tickerStrings;
 @synthesize tickerSpeed;
 @synthesize loops;
+@synthesize direction;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -79,6 +80,9 @@
 	
 	// Set that it loops by default
 	loops = YES;
+    
+    // Set the default direction
+    direction = JHTickerDirectionLTR;
 }
 
 -(void)animateCurrentTickerString
@@ -87,9 +91,24 @@
 	
 	// Calculate the size of the text and update the frame size of the ticker label
 	CGSize textSize = [currentString sizeWithFont:tickerFont constrainedToSize:CGSizeMake(9999, self.frame.size.height) lineBreakMode:UILineBreakModeWordWrap];
-	
-	// Move off screen
-	[tickerLabel setFrame:CGRectMake(self.frame.size.width, tickerLabel.frame.origin.y, textSize.width, textSize.height)];
+
+    // Setup some starting and end points
+	float startingX = 0.0f;
+    float endX = 0.0f;
+    switch (direction) {
+        case JHTickerDirectionRTL:
+            startingX = -textSize.width;
+            endX = self.frame.size.width;
+            break;
+        case JHTickerDirectionLTR:
+        default:
+            startingX = self.frame.size.width;
+            endX = -textSize.width;
+            break;
+    }
+
+	// Set starting position
+	[tickerLabel setFrame:CGRectMake(startingX, tickerLabel.frame.origin.y, textSize.width, textSize.height)];
 	
 	// Set the string
 	[tickerLabel setText:currentString];
@@ -103,9 +122,12 @@
 	[UIView setAnimationDuration:duration];
 	[UIView setAnimationDelegate:self];
 	[UIView setAnimationDidStopSelector:@selector(tickerMoveAnimationDidStop:finished:context:)];
-	
-	[tickerLabel setFrame:CGRectMake(-textSize.width, tickerLabel.frame.origin.y, textSize.width, textSize.height)];
-	
+
+	// Update end position
+    CGRect tickerFrame = tickerLabel.frame;
+    tickerFrame.origin.x = endX;
+    [tickerLabel setFrame:tickerFrame];
+    
 	[UIView commitAnimations];
 }
 

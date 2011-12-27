@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum
+{
+    JHTickerDirectionLTR,
+    JHTickerDirectionRTL,
+} JHTickerDirection;
 
 @interface JHTickerView : UIView {
     
@@ -36,6 +41,7 @@
 @property(nonatomic, retain) NSArray *tickerStrings;
 @property(nonatomic) float tickerSpeed;
 @property(nonatomic) BOOL loops;
+@property(nonatomic) JHTickerDirection direction;
 
 -(void)start;
 //-(void)stop;
