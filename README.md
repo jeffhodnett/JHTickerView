@@ -4,5 +4,5 @@ Twitter: @jeffhodnett
 
 A custom ticker view for iOS
 
-![Screenshot](https://github.avira.com/jeffhodnett/JHTickerView/raw/master/ticker.gif)
+![Screenshot](https://raw2.github.com/jeffhodnett/JHTickerView/master/ticker.gif)
 
