@@ -5,7 +5,7 @@ JHTickerView
 
 A custom ticker view for iOS
 
-![Screenshot](https://raw2.github.com/jeffhodnett/JHTickerView/master/ticker.gif)
+![Screenshot](https://github.com/jeffhodnett/JHTickerView/blob/master/ticker.gif)
 
 ## Credits
 
